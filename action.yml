@@ -1,5 +1,5 @@
-name: 'Redis Server in GitHub Actions'
-description: 'Start a Redis server'
+name: 'Redis Stack Server in GitHub Actions'
+description: 'Start a Redis Stack server'
 
 branding:
   icon: 'database'
