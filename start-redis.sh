@@ -11,4 +11,4 @@ if [ -z "$REDIS_VERSION" ]; then
 fi
 
 echo "Starting single-node Redis instance"
-docker run --name $REDIS_CONTAINER_NAME --publish $REDIS_PORT:6379 --detach redis/redis-stack-server:$REDIS_VERSION
+docker run --name $REDIS_CONTAINER_NAME --publish $REDIS_PORT:6379 --detach redis/redis-stack-server:latest
